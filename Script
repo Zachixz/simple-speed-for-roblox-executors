@@ -1,5 +1,4 @@
---made by Zachixz on GitHub
-local walkspeed = 50
+local walkspeed = 50 --you can edit this number for what speed you want
 local bodypos = Instance.new("BodyPosition",game.Players.LocalPlayer.Character.HumanoidRootPart)
 bodypos.maxForce = Vector3.new(12500,12500,12500)
 spawn(function()
